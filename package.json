@@ -1,0 +1,22 @@
+{
+  "name": "keenable-zapier",
+  "version": "1.0.0",
+  "description": "Zapier integration for Keenable: web search and page fetch for AI agents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testTimeout 30000"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "zapier-platform-core": "17.9.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "private": true,
+  "zapier": {
+    "convertedByCLIVersion": "17.9.1"
+  }
+}
